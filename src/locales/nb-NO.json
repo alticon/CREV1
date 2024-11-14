@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "ROI Kalkulator",
+    "subtitle": "Digital tvilling lønnsomhetsberegning"
+  },
+  "calculator": {
+    "sections": {
+      "customerInfo": "Kundeinformasjon",
+      "businessImprovements": "Forretningsmessige forbedringer",
+      "improvedBids": "Forbedrede tilbud",
+      "betterDecisions": "Bedre beslutninger",
+      "consultantHours": "Årlige konsultenttimer spart",
+      "roiAnalysis": "ROI Analyse",
+      "buildingInformation": "Bygningsinformasjon",
+      "digitalTwinCosts": "Digital tvilling kostnader",
+      "consultingServices": "Konsulenttjenester og tilpasning"
+    },
+    "inputs": {
+      "customerName": "Kundenavn",
+      "buildingName": "Bygning",
+      "address": "Adresse",
+      "buildingSize": "Bygningsstørrelse (m²)",
+      "annualRent": "Årlig leie per m²",
+      "vacancyPeriod": "Tidligere ledighetstid (dager)",
+      "savingsPerBid": "Besparelse per tilbud",
+      "numberOfBids": "Antall tilbud per år",
+      "savingsPerDecision": "Besparelse per beslutning",
+      "numberOfDecisions": "Antall beslutninger per år",
+      "architectHours": "Arkitekt",
+      "interiorArchitectHours": "Interiørarkitekt",
+      "electricianHours": "Elektriker",
+      "plumberHours": "Rørlegger",
+      "ventilationHours": "Ventilasjon",
+      "sprinklerHours": "Sprinkler",
+      "scanningCost": "Skanning kostnad per m²",
+      "maintenanceCost": "Årlig vedlikeholdskostnad",
+      "consultingHours": "Konsulenttimer",
+      "hourlyRate": "Timepris"
+    },
+    "buttons": {
+      "calculate": "Beregn ROI",
+      "save": "Lagre beregning",
+      "export": "Eksporter PDF",
+      "settings": "Innstillinger"
+    },
+    "settings": {
+      "hourlyRates": "Timepriser"
+    },
+    "results": {
+      "firstYearRoi": "Første års ROI",
+      "paybackPeriod": "Tilbakebetalingstid",
+      "npv": "5 års NPV",
+      "vacancyAnalysis": "Ledighetstid analyse",
+      "dailyRental": "Daglig leieverdi",
+      "expectedReduction": "Forventet reduksjon",
+      "potentialSavings": "Potensielle besparelser",
+      "annualRentalIncome": "Årlige leieinntekter",
+      "totalScanningCost": "Total skanningkostnad",
+      "totalConsultingCost": "Total konsulentkostnad",
+      "totalCost": "Totale kostnader"
+    }
+  },
+  "common": {
+    "months": "måneder",
+    "days": "dager",
+    "hours": "timer",
+    "currency": "kr"
+  }
+}

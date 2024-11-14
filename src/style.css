@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #004B87;
+  --secondary-color: #00A0DC;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.btn-primary {
+  @apply bg-[#004B87] text-white px-6 py-2 rounded-lg hover:bg-[#003666] transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.input-field {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#00A0DC] focus:border-transparent;
+}
